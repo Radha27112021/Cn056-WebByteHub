@@ -1,0 +1,105 @@
+body{
+    background-image: url('WhatsApp\ Image\ 2024-03-23\ at\ 12.31.12\ AM.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+4E
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	background-color: darkblue;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		max-width: 100%;
+		padding: 10px;
+	}
+
+	h1 {
+		margin-bottom: 20px;
+	}
+
+	label {
+		display: inline-block;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	input[type="password"] {
+		width: 100%;
+		padding: 8px;
+		border: 1px solid gray;
+		border-radius: 5px;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+		font-size: 14px;
+	}
+
+	select {
+		width: 100%;
+		padding: 8px;
+		border: 1px solid gray;
+		border-radius: 5px;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+		font-size: 14px;
+	}
+
+	input[type="submit"] {
+		padding: 8px;
+		font-size: 14px;
+	}
+}
